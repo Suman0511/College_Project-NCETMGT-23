@@ -1,0 +1,29 @@
+.paper{
+    margin: 4.5rem;
+}
+
+.paper p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: start;
+    margin: 10px;
+}
+
+.paper li{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: start;
+    margin: 10px;
+}
+
+@media screen and (max-width:850px){
+    .paper{
+        margin: 0;
+    }
+    .paper p{
+        font-size: 1rem;
+    }
+    .paper li{
+        font-size: 1rem;
+    }
+}
