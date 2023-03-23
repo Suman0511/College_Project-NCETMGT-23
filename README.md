@@ -1,6 +1,6 @@
-# College_Project---NCETCSE-23
+# College_Project---NCETMGT-23
 '''
-NCETCSE-23(National Conference On Emerging Technologies in Computer Science Engineering)
+NCETMGT-23(National Conference On Emerging Trends in Business Management)
 '''
 
 '''
