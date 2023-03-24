@@ -1,47 +1,229 @@
-.submit{
-    margin: 4.5rem;
+.submit {
+  margin: 4.5rem;
 }
 
-.submit h1{
-    margin-bottom: 30px;
+.submit h1 {
+  margin-bottom: 30px;
 }
 
-.submit p{
-    font-size: 1.3rem;
-    font-weight: 400;
+.submit p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: start;
+  margin: 10px;
+}
+
+.submit ul {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: start;
+  margin: 10px;
+}
+
+.submit li {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: start;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.submit a {
+  text-decoration: none;
+}
+@media screen and (max-width: 850px) {
+  .submit {
+    margin: 0;
+  }
+  .submit p {
+    font-size: 1.1rem;
+  }
+  .submit ul {
+    font-size: 1rem;
+  }
+  .submit li {
+    font-size: 1rem;
+  }
+}
+
+/* ------------------------------- */
+.submission-container {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(241, 147, 81); */
+  background-color: #fff;
+}
+.submission-container-2 {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+.submission-container-3 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 188, 140);
+}
+.submission-container-4 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 188, 140);
+}
+.container {
+  width: 100%;
+}
+h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+h5 {
+
+  margin: 10px 10px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000;
+  text-align: left;
+}
+.structure_paper {
+  width: 48%;
+  text-align: left;
+  padding-left: 25px;
+}
+.structure_paper ul {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: start;
+  padding: 0px;
+  line-height: 23px;
+  color: #000;
+  list-style-type: disc;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  gap: 5px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.structure_paper p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: start;
+  line-height: 20px;
+  padding: 0px;
+}
+.research_paper_format {
+  width: 48%;
+  text-align: left;
+}
+.research_paper_format p {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: start;
+  line-height: 15px;
+  padding: 0px;
+}
+.research_paper_format p b {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: start;
+  line-height: 15px;
+  padding: 0px;
+}
+.conference-processing {
+  width: 48%;
+  text-align: left;
+  padding-left: 25px;
+}
+.submission-guidelines {
+  width: 48%;
+  text-align: left;
+  padding-left: 25px;
+}
+.conference-processing p {
+    font-size: 1.1rem;
+    font-weight: 500;
     text-align: start;
-    margin: 10px;
-}
-
-.submit ul{
-    font-size: 1.3rem;
-    font-weight: 400;
+    line-height: 20px;
+    padding: 0px;
+    color:white
+  }
+  .submission-guidelines p {
+    font-size: 1.1rem;
+    font-weight: 500;
     text-align: start;
-    margin: 10px;
-}
-
-.submit li{
-    font-size: 1.3rem;
-    font-weight: 400;
-    text-align: start;
-    margin: 10px;
-    text-decoration: none;
-}
-
-.submit a{
-    text-decoration: none;
-}
-@media screen and (max-width:850px){
-    .submit{
-        margin: 0;
-    }
-    .submit p{
+    line-height: 20px;
+    padding: 0px;
+    color:white
+  }
+  .heading{
+    font-size: 18px;
+    color:white;
+    font-weight: 700;
+  }
+  .award p{
         font-size: 1.1rem;
-    }
-    .submit ul{
+        font-weight: 500;
+        text-align: start;
+        line-height: 20px;
+        padding: 0px;
+        color:#000;
+        margin-left: 10px;
+  }
+
+  @media (width <= 550px){
+    .structure_paper h4{
         font-size: 1rem;
     }
-    .submit li{
+    .structure_paper ul li{
+        font-size: 0.9rem;
+    }
+    .structure_paper p{
+        font-size: 0.9rem;
+    }
+    .research_paper_format p b{
         font-size: 1rem;
     }
-}
+    .research_paper_format p{
+        font-size: 0.8rem;
+    }
+    .list-item {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+        margin: 0px;
+        padding: 0px;
+        gap: 5px;
+      }
+      .dot-res{
+        width: 13px;
+      }
+      .conference-processing h4{
+        font-size: 0.9rem;
+      }
+      .submission-guidelines h4{
+        font-size: 0.9rem;
+      }
+      .conference-processing p{
+        font-size: 0.9rem;
+      }
+      .submission-guidelines p{
+        font-size: 0.9rem;
+      }
+      .award h5{
+        font-size: 1rem;
+      }
+      .award p{
+        font-size: 0.9rem;
+      }
+  }
