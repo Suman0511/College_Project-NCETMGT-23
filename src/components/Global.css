@@ -1,25 +1,34 @@
 .global{
        color: #2a2a2a;
-       height: 100vh;
+       height: 60vh;
        width: 100%;
        background: #000;
+       display: flex;
+       align-items: center;
 }
 
 .global img{
-    width: 60%;
+    width: 40%;
     height: 40vh;
+    margin-right: 40px;
 }
 
 .global-text{
     background-color: #000;
 }
+.global-text img{
+    width: 80%;
+}
 
 .global-text a{
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: #fff;
     color: #000; 
     border-radius: 7px;
     text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 40px;
+
 }
 
 .global-text a:hover{
@@ -52,12 +61,33 @@
 
 
 
-@media screen and(max-width:550px){
+@media (width <= 550px){
+    .global{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+ }
     .global ul{
         display: block;
         margin: 5vh;
     }
-
+    .global img{
+        width: 90%;
+        height: 23vh;
+        margin-right: 0px;
+    }
+    
+    .global-text{
+        background-color: #000;
+    }
+    .global-text img{
+        width: 98%;
+    }
+    .global-text a{
+        margin-right: 0px;
+    
+    }
     .global li{
         display: block;
         justify-content: space-between;

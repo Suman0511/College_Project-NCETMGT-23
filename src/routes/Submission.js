@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import Global from "../components/Global";
 import Navpic from "../components/Navpic";
 import Submit from "../components/Submit";
 import Query from "../components/Query";
@@ -17,7 +16,6 @@ function Submission(){
         <Hero/>
         <Organ/>
         <Submit/>
-        <Global/>
         <Query/>
         <Footer/>
         </>

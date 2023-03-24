@@ -27,7 +27,7 @@ const Destination = ()=>{
     />
 
 <DestinationData 
-className="first-des-reverse"
+className="first-des"
     heading="ABOUT GURUGRAM UNIVERSITY"
     text="Gurugram University is a synonym for excellence in education. The students from every nook and corner of the 
     country and from every group and stratum of society live, learn and play in the sprawling lush green; campus, nestled 
@@ -55,7 +55,7 @@ className="first-des-reverse"
     /> 
 
 <DestinationData 
-className="first-des-reverse"
+className="first-des"
     heading="ABOUT CONFERENCE"
     text="The Conference is devoted to deliberate issues and challenges in the field of Commerce and Management. 
     To provide a better platform for expression of their innovative ideas & thoughts among all the participants.
